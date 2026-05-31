@@ -15,12 +15,12 @@
 
     <!-- NuGet package metadata -->
     <PackageId>RoslynNavigator</PackageId>
-    <Version>1.0.0</Version>
+    <Version Condition="'$(Version)' == ''">0.0.0</Version>
     <Authors>Synthethix AI</Authors>
     <Company>Synthethix AI</Company>
     <Product>RoslynNavigator</Product>
     <Title>Roslyn Navigator — MCP Server for .NET</Title>
-    <Description>A Model Context Protocol (MCP) server that gives AI coding assistants semantic understanding of .NET codebases via Roslyn. 15 read-only tools for symbol navigation, reference finding, type hierarchy, dependency graphs, anti-pattern detection, dead code analysis, and diagnostics — all returning token-optimized responses.</Description>
+    <Description>A Model Context Protocol (MCP) server that gives AI coding assistants semantic understanding of .NET codebases via Roslyn. 15 read-only tools for symbol navigation, reference finding, type hierarchy analysis, and dead code detection.</Description>
     <PackageTags>mcp;roslyn;dotnet;claude;ai;code-analysis;semantic-analysis;codebase-navigation;model-context-protocol;claude-code</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/synthetix-ai-sas/roslyn-navigator</PackageProjectUrl>
