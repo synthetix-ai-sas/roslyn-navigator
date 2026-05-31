@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/RoslynNavigator.csproj" />
+  <Folder Name="/tests/">
+    <Project Path="tests/RoslynNavigator.Tests.csproj" />
+  </Folder>
+</Solution>
